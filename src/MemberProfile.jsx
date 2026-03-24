@@ -2,7 +2,7 @@ import React from "react";
 
 const MemberProfile = ({ name, role, img }) => {
   return (
-    <div className="bg-white shadow-md rounded-lg border border-gray-200 p-4 ">
+    <div className="bg-white shadow-md rounded-lg border border-gray-200 p-4 hover:-translate-y-2 transition-all duration-200 ">
       <img
         src={img}
         alt=""

@@ -55,12 +55,12 @@ const members = [
 function App() {
   return (
     <>
-      <div className="min-h-screen p-6">
+      <div className="min-h-screen p-6 ">
         <h1 className="text-center text-3xl font-bold text-blue-800 pb-6">
           Team Members List App
         </h1>
 
-        <div className="grid md:grid-cols-3 gap-4 ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-[1400px] mx-auto">
           {members.map((member) => (
           <MemberProfile
             key={member.id}
